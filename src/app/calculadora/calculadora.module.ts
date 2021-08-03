@@ -10,6 +10,9 @@ import { CalculadoraComponent } from './components/calculadora.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    CalculadoraComponent
   ]
 })
 export class CalculadoraModule { }
